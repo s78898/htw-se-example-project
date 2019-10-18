@@ -15,19 +15,54 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 === Listen
 
 .Beispiel: unsortierte Liste 
-1
-3
-6
-2
-7
-2
-4
+1 3 6 2 7 2 4
 
 .Beispiel: sortierte Liste
-1
-3
-5
-6
-7
-8
-9
+1 3 5 6 7 8 9
+
+
+=== Tabellen und Textformatierung
+
+Name of Column 1 |Name of Column 2 |Name of Column 3 
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+|Cell in column 3, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|Cell in column 3, row 2
+
+
+
+Formatierung        Syntax 	Beschreibung
+
+bold
+
+*bold*
+
+fetter Text
+
+italic
+
+_italic_
+
+kursiver Text
+
+monospace
+
+`monospace`
+
+Text mit fester Laufweite
+
+bold&italic
+
+*_bold&italic_*
+
+Text mit kombinierter Formatierung
+
+bold&italic
+
+**bold**&__italic__
+
+Text mit Formatierung innerhalb eines Wortes
