@@ -6,6 +6,7 @@ Paul Rogge s78898@htw-dresden.de
 :toc: 
 :toc-title: Inhaltsverzeichnis
 :source-highlighter: highlightjs
+:xrefstyle: full | short | basic
 // Platzhalter für weitere Dokumenten-Attribute 
 
 == Einführung
@@ -57,8 +58,6 @@ Ziel: **S**oftware **E**ngin__ee__``ring``
 
 === Quellcode
 
-
-
 .hello.c
 [source, c]
 ----
@@ -70,3 +69,29 @@ int main(int argc, char* argv[])
     return 0;
 }
 ----
+
+=== Bilder 
+
+=== Verweise
+
+.SCREENSHOT EDITOR
+[#IMG01]
+image::screenshot.png[SCREENSHOT EDITOR]
+
+== TITEL
+
+<<Kennenlernen der Syntax, Kennenlernen der Syntax>>
+[#KAP01]
+
+
+<<Tabellen und Textformatierung, Tabellen und Textformatierung>>
+[#KAP02]
+
+<<Quellcode, Quellcode c>>
+[#KAP03]
+
+
+
+
+
+
