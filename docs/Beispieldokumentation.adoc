@@ -23,46 +23,31 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 
 === Tabellen und Textformatierung
 
-Name of Column 1 |Name of Column 2 |Name of Column 3 
+[%header,cols=3*] 
+|===
+|Formatierung
+|Syntax
+|Beschreibung
 
-|Cell in column 1, row 1
-|Cell in column 2, row 1
-|Cell in column 3, row 1
+|*bold*
+|+*bold*+
+|fetter Text
 
-|Cell in column 1, row 2
-|Cell in column 2, row 2
-|Cell in column 3, row 2
+|_italic_
+|+_italic_+
+|kursiver Text
+
+|`monospace`
+|+`monospace`+
+|Text mit fetter Laufweite
+
+|*_bold&italic_*
+|+*_bold&italic_*+
+|Text mit kombinierter Formatierung
+
+|**bold**&__italic__
+|+**bold**&__italic__+
+|Text mit Formatierung innerhalb eines Wortes
+|===
 
 
-
-Formatierung        Syntax 	Beschreibung
-
-bold
-
-*bold*
-
-fetter Text
-
-italic
-
-_italic_
-
-kursiver Text
-
-monospace
-
-`monospace`
-
-Text mit fester Laufweite
-
-bold&italic
-
-*_bold&italic_*
-
-Text mit kombinierter Formatierung
-
-bold&italic
-
-**bold**&__italic__
-
-Text mit Formatierung innerhalb eines Wortes
